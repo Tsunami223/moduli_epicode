@@ -1,0 +1,357 @@
+body{
+    font-family: 'Crimson Text', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Prata', serif;
+width: 100%;
+margin: 0;
+padding: 0;
+background-color: #f3f4f4
+}
+
+.topbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #f3f4f4;
+    align-items: center;
+    box-shadow: 0px 3px 7px;
+    color: lightgrey;
+}
+
+.topbar_logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.logo-medium{
+    width: 250px;
+    height: 100%;
+}
+
+
+.topbar_icons-container {
+    margin-right: 5%;
+    font-size: larger;
+}
+
+.main-section {
+    display: flex;
+    width: 100%;
+    margin-top: 45px;
+    font-size: larger;
+
+}
+
+.left-section {
+    flex: 70%;
+    border-right: 1px solid gray;
+
+}
+
+.left-section ul {
+    margin-left: 10%;
+    border-bottom: 1px solid gray;
+    width: 80%;
+    font-size: larger;
+}
+
+.card {
+
+
+    margin-left: 10%;
+    border: 0px solid black;
+    padding: 15px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+.card-left {
+    padding-left: 5px;
+}
+
+.card h1 {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.lorem{
+    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.card p {
+    margin: 0;
+}
+
+.first-icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.first-icon {
+    margin-right: 15px;
+}
+
+.card-actions-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-actions {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 5px;
+}
+
+.right-section {
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-rightbar{
+    width: 71px;
+    height: 50px;
+    border-color: transparent;
+}
+
+
+.logo_twit{
+
+    border-bottom:solid #a29c9c;
+    border-bottom-width: thin;
+    font-size: 40px;
+    display: flex;
+    border-bottom: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+}
+
+
+.logo_dx{
+ width: 260px;
+}
+.buttontwitter{
+    
+    border-radius: 20px;
+    width: 190px;
+    height: 45px;
+    font-size: medium;
+    margin-top: -50px;
+    cursor: pointer;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    color: gray;
+    cursor: pointer;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+img {
+
+    width: 250px;
+    height: 100%;
+
+}
+
+.resume_button {
+    border: none;
+    border-radius: 20px;
+    height: 45px;
+    width: 175px;
+    border-color: #e4e4e4;
+    margin-right: 10px;
+    margin-left: 8px;
+    cursor: pointer;
+
+}
+
+.Tbutton {
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    background: orange;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.div_buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    max-width: 444px;
+  margin-left: -70px;
+}
+
+.buttons{
+    
+    margin-left: 20px;
+    border-radius: 20px;
+    width: 135px;
+    height: 35px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: 0;
+    background-color: #9e9e9e45;
+    cursor: pointer;
+    
+}
+.div_h6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p_doggo{
+    margin-left: 20px;
+}
+.h5_div{
+    margin-right: 40%;
+    margin-top: 100px;
+}
+h5{
+    font-size: 24px;
+}
+
+.btn_follow{
+    border-radius: 20px;
+    border: 0.5px solid;
+    margin-left: 15px;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+.maybe_later{
+    color: #a29c9c;
+    text-decoration: underline;
+    font-size: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.right_bottom{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.doggo{
+    border-radius: 220px;
+    width: 75px;
+    height: 70px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+.p-1{
+    margin: 0px;
+    padding: 7px
+}
+.p-2{
+    margin: 10px;
+  font-size: 10px;
+  text-align: start;
+  color:#a29c9c;
+}
+
+
+.ion-icon {
+    font-size: 22px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    box-shadow: 5px 6px 12px lightgray;
+}
+
+h3 {
+    padding-left: 30px;
+}
+
+h3:hover {
+    text-decoration: underline black;
+}
+
+h5{
+    display: flex;
+    font-size: large;
+    justify-content: center;
+}
+h6{
+    margin-top: 60px;
+}
+
+.main {
+    display: flex;
+}
+
+.sect_left {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 70%;
+    border-bottom: 1px solid grey;
+    border-bottom-width: thin;
+
+}
+.img-card{
+    padding: 5px;
+}
+h2{
+text: bold;
+
+}
+.p-card{
+    color: #a29c9c;
+}
+.bottom-right{
+margin-right: 156px;
+}
+.bottom-right1{
+    display: flex;
+    flex-direction: row-reverse;
+}
